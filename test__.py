@@ -6,17 +6,11 @@ import os
 import shutil
 import tempfile
 import io
-from dotenv import load_dotenv
-
-
-# Load environment variables
-load_dotenv()
-
 
 app = FastAPI()
 
 # Initialize Deta Drive with your project key
-drive = deta.Deta().Drive('audioProj')
+drive = deta.Deta("a0bkhtw7ore_KF3xzLHFkwq46hcyC9vGdtaAEEDF6fqF").Drive('audioProj')
 
 def convert_video_to_audio(input_file: str, output_file: str): 
     '''

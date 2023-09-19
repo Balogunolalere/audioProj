@@ -1,2 +1,7 @@
 moviepy
 typer
+fastapi
+deta
+uvicorn
+python-multipart
+python-dotenv

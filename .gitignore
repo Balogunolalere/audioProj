@@ -1,3 +1,5 @@
 audio.mp3
 env
 output_test.mp3
+__pycache__/*
+.env
