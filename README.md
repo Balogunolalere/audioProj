@@ -39,17 +39,12 @@ Setup
 1.  Clone the repository
 2.  Install dependencies
 
-<!---->
 
-Copy code
 
 `pip install -r requirements.txt`
 
-3\. Set the Deta project key to initialize Deta Drive 4. Run the application
 
-<!---->
 
-Copy code
 
 `uvicorn main:app`
 
@@ -67,6 +62,3 @@ Dependencies
 *    python-dotenv - Used for loading environment variables from a .env file.
 
 
-
-
-Copy
