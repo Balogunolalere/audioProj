@@ -16,7 +16,9 @@ load_dotenv()
 app = FastAPI()
 
 # Initialize Deta Drive with your project key
-drive = deta.Deta().Drive('audioProj')
+d = deta.Deta(os.getenv('DRIVE_PROJECT_KEY'))
+
+drive = d.Drive('audioProj')
 
 def convert_video_to_audio(input_file: str, output_file: str): 
     '''
